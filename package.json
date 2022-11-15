@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "prestart": "npm run build",
-    "start": "node app.js",
+    "start": "node scripts/dev.js",
     "dev": "node scripts/dev.js",
     "build": "rollup -c",
     "prepare": "npx husky install",
