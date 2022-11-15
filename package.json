@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node scripts/dev.js",
-    "dev": "node scripts/dev.js",
+    "dev": "node scripts/dev.js"
   },
   "dependencies": {
     "@zoom/appssdk": "^0.16.2",
