@@ -5,12 +5,8 @@
   "exports": "./server",
   "private": true,
   "scripts": {
-    "prestart": "npm run build",
     "start": "node scripts/dev.js",
     "dev": "node scripts/dev.js",
-    "build": "rollup -c",
-    "prepare": "npx husky install",
-    "postprepare": "node scripts/gen-secrets.cjs"
   },
   "dependencies": {
     "@zoom/appssdk": "^0.16.2",
